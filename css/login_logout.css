@@ -1,0 +1,82 @@
+:root {
+    --font-Gugi: 'Gugi', cursive;
+    --font-family: "Mukta", BlinkMacSystemFont, "Segoe UI";
+    --gray: #f3f3f4;
+    --blue: #348AA7;
+    --google: rgb(219,68,55);
+    --facebook:rgb(60,90,153);
+    --google-hover:rgb(198, 69, 33);
+    --facebook-hover:#0D4EAC;
+    --shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --font-osla: 'Oswald', sans-serif;
+    --font-alton: 'Anton', sans-serif;
+    
+}
+
+html{
+    height:100%;
+}
+body {
+    box-sizing: border-box;
+    color: black;
+    padding: 0;
+    margin:0;
+    min-height:100%;
+    font-family: var(--font-family);
+    background:url('../img/background/GMK_Mtro.jpg');
+    background-size:cover;
+}
+section{
+    position:relative;
+    top:10px;
+}
+
+.container .row .col-sm-4{
+    border-radius:10px;
+    box-shadow: 3px 2px 7px black;
+    background:#fff;
+    opacity:2;
+}
+.content{
+    position:relative;
+    top:150px;
+}
+
+
+/*Login Form*/
+.button-login{
+    border:none;
+    padding:10px;
+    border-radius:10px;
+    color:white;
+    transition:.3s ease-in;
+}
+.button-fb{
+    background:var(--facebook);
+}
+.button-gg{
+    background:var(--google);
+}
+.button-login:hover{
+    box-shadow: var(--shadow);
+
+}
+.button-gg:hover{
+    background: var(--google-hover);
+}
+.button-fb:hover{
+    background: var(--facebook-hover);
+}
+/*Button SignIn*/
+.col-md-12 .col-sm-6{
+}
+.col-md-12 .col-sm-6 .button-submit {
+    border:none;
+    padding:10px;
+    background:black;
+    color:white;
+    box-shadow: 3px 5px 10px gray;
+}
+.col-md-12 .col-sm-6 .button-submit:hover{
+    background:var(--blue);
+}

@@ -1,0 +1,40 @@
+:root {
+    --font-Gugi: 'Gugi', cursive;
+    --font-family: "Mukta", BlinkMacSystemFont, "Segoe UI";
+    --gray: #f3f3f4;
+    --blue: #348AA7;
+    --shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --font-osla: 'Oswald', sans-serif;
+    --font-alton: 'Anton', sans-serif;
+}
+/*Header*/
+.container .row .col-md-7 h2{
+    font-weight: 100px;
+}
+.container .row .col-md-7 h2:hover{
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.row .col-md-12 .row .col-lg-7 > img{
+    border:1px solid var(--gray);
+    border-radius: 50%;
+    width:200px;
+}
+.row .col-md-12:hover {
+    background:var(--gray);
+    transition: .6s ease-in-out;
+}
+.row .col-md-12 .row .text-center{
+    border-top:2px solid black;
+    transition:.10s ease-in-out;
+}
+.row .col-md-12 .row .text-center p{
+    color:gray;;
+}
+.row .col-md-12 .row .text-center p:hover{
+    color:white;
+}
+.row .col-md-12 .row .text-center:hover{
+    background:	var(--blue); 	 
+}

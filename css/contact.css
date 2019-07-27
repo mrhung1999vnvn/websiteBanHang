@@ -1,0 +1,33 @@
+:root {
+    --font-Gugi: 'Gugi', cursive;
+    --font-family: "Mukta", BlinkMacSystemFont, "Segoe UI";
+    --gray: #f3f3f4;
+    --blue: #348AA7;
+    --shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --font-osla: 'Oswald', sans-serif;
+    --font-alton: 'Anton', sans-serif;
+}
+
+label{
+    width:100%;
+}
+.input{
+    border:none;
+    border-bottom:1px solid gray;
+    height:40px;
+    width:100%;
+}
+textarea{
+    resize: none;
+}
+.block-4 .block-4-text h4{
+    font-family:var(--font-Gugi);
+}
+.horizal-image{
+    width:30%;
+    height:10px;
+    background: var(--blue);
+    margin:0 auto;
+}
+/*Sen FeedBack*/
+

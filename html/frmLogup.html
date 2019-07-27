@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../css/login_logout.css">
+    <link rel="stylesheet" href="../css/logup.css">
+    <title>Đăng ký</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="row p-4 justify-content-center">
+            <div class="col-sm-4 col-md-6">
+                <div class="row p-4 ml-4 mr-4">
+                    <div class="col-md-12">
+                        <div class="text-md-center">
+                            <h2>Log Up</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-2">
+                        <div class="row p-2">
+                            <div class="col-md-6 col-sm-3 col-lg-6 text-md-right">
+                                <button class="button-login button-fb" style="width:140px;">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>FaceBook
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="col-md-6 col-sm-3 col-lg-6 text-md-left">
+                                <button class="button-login button-gg" style="width: 140px">
+                                    <i class="fab fa-google-plus-g"></i>
+                                    <span> Google
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="" method="POST">
+                        <div class="col-md-12 col-sm-6 mb-3" >
+                        <div class="row container input-group-sm input-group-lg mb-3">
+                            <div class="ml-5" >
+                                <label for="UserName">User Name:</label>
+                            </div>
+                            <div class="col-md-12">
+                                <input class="ml-5 input-text" style="width:270px"type="text" id="UserName" required>
+                            </div>
+                        </div>
+                        <div class="row container input-group-sm input-group-lg mb-3">
+                            <div class="ml-5">
+                                <label for="Password">Password:<span ><a
+                                            href="#">(Forgot)</a></span></label>
+                            </div>
+                            <div class="col-md-12">
+                                <input class="ml-5 input-text"style="width:270px" type="password" id="Password" required>
+                            </div>
+                        </div>
+                        <div class="row container input-group-sm input-group-lg">
+                                <div class="ml-5">
+                                    <label for="UserName">Confirm Password:</label>
+                                </div>
+                                <div class="col-md-12">
+                                    <input class="ml-5 input-text" style="width:270px"type="password" id="UserName" required>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-12 col-sm-6 mb-5" >
+                        <div class="col-sm-6 col-md-12 text-md-center">
+                            <input type="submit" value="Log Up" class="w-100 button-submit-logup">
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-6">
+                            <div class="col-sm-6 col-md-12 text-md-center">
+                                <p style="color:gray">© 2018 Copyright:
+                                        <a href=""> phamhoaihung2408@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="fb-root"></div>
+    <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with"
+        data-auto-logout-link="false" data-use-continue-as="false"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3"></script>
+</body>

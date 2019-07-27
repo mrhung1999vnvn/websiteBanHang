@@ -1,0 +1,119 @@
+
+
+/*Section*/
+
+section.site-blocks-cover {
+    background: url('../img/56e8dc00e6f015bb7578629e8e663ed7.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+    height: calc(100vh - 174px);
+}
+section.site-blocks-cover:hover {
+    opacity:0.9;
+    transition:.9s ease;
+}
+#keyHeader > a{
+    text-decoration:none;
+    color:black;
+}
+/*Section*/
+
+/*Banner*/
+
+section .rowchange {
+    position: relative;
+    top: 100px;
+    padding: 10px;
+    transition: .9s ease;
+    border-radius:15px;
+}
+
+section h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Play', sans-serif;
+}
+
+/*Banner*/
+
+/*For  Text*/
+section .col-md-7 .mb-2 {
+    font-family: 'Crete Round', serif;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 15px;
+    color: white;
+    letter-spacing: 1px;
+}
+section .col-md-7 .text-hover{
+    opacity:0;
+    transition: .9s ease;
+}
+/*For Text*/
+
+/*For button*/
+
+section .col-md-3 .other {
+    color: white;
+    background: var(--blue);
+    text-decoration: none;
+    text-align: center; 
+    padding: 14px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: none;
+    border-radius: 8px;
+}
+section .col-md-3 .other:hover {
+    box-shadow: var(--shadow);
+}
+/*For Button*/
+/*Section*/
+/*SECTION 2*/
+.site-section{
+    padding:4em 0;
+}
+/*SECTION 2*/
+/*section 2.1*/
+.picture{
+    
+}
+.picture img{
+    width:100%;
+    height: 100%;
+    border:1px solid black;
+    box-shadow: var(--shadow);
+}
+.container-fluid .container .text-center h3{
+    background:white;
+}
+/*Section 2.2*/
+.box-for-grid{
+    background:var(--gray);
+}
+.product-item{
+    width:33,33%;
+    padding:10px;
+    text-align:center;
+    display:block;
+    position:relative;
+    background:#fff;
+    float:left;
+}
+.item{
+    margin-top:20px;
+    margin-left:50px;
+    margin-bottom:30px;
+    box-shadow: var(--shadow);
+}
+.item .image > img{
+    width:300px;
+    height:200px;
+    
+}
+/*Section 2.2*/
+/*SECTION2*/
+
+

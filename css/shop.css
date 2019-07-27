@@ -1,0 +1,85 @@
+:root {
+    --font-Gugi: 'Gugi', cursive;
+    --font-family: "Mukta", BlinkMacSystemFont, "Segoe UI";
+    --gray: #f3f3f4;
+    --blue: #348AA7;
+    --shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --font-osla: 'Oswald', sans-serif;
+    --font-alton: 'Anton', sans-serif;
+}
+
+/*Horizontal address under nav*/
+.col-md-12{
+    position:absolute;
+    top:-5px;
+}
+.bg-light .container .row .col-md-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+/*Horizontal address under nav*/
+/*Product*/
+.site-block-27 ul {
+    text-decoration:none;
+}
+.site-block-27 > ul li {
+    background:var(--blue);
+    color:#fff;
+    border:1px solid transparent;
+    display:inline-block;
+    font-size:23px;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    transition: .9s ease;
+}
+.site-block-27 > ul li:hover{
+    background:rgba(179, 237, 237,0.7);
+}
+
+/*Item*/
+.row .col-sm-4 .block-4:hover{
+    border:none;
+    transition: .5s ease;
+    box-shadow: 2px 0 10px gray;
+}
+.col-sm-4 .block-4 .text-center h4 a{
+    text-decoration:none;
+    transition:.7s ease;
+}
+.col-sm-4 .block-4 .text-center h4 a:hover{
+    color:var(--blue);
+}
+.row .col-sm-4 .block-4 > figure:hover{
+    transition:.7s ease;
+    opacity:0.7;
+}
+.row .col-sm-4 .block-4 .block-4-image > a img{
+    width:100%;
+    height:240px;
+}
+del{
+    color:red;
+    font-size:20px;
+}
+figure{
+    margin:0;
+}
+/*Item*/
+
+/*dropdown*/
+
+.list-group .w3-dropdown-hover > a{
+    text-align:left;
+    transition:.12s ease;
+}
+.w3-dropdown-hover{
+    width:75%;
+}
+.list-group .w3-dropdown-hover{
+    background:var(--blue);
+}
+/*dropdown*/
+/*Product*/
